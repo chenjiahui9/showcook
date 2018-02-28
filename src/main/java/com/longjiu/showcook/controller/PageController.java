@@ -10,9 +10,7 @@ public class PageController {
 
     @GetMapping("/{page}")
     public  String page(@PathVariable( name= "page") String  page){
-
         return page;
-
     }
 
 }
